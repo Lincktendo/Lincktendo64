@@ -1,8 +1,18 @@
-﻿__pycache__/
+﻿# Datos en tiempo de ejecucion - descargas, settings, cache de letras
+data/
+
+# Python
+__pycache__/
 *.pyc
 *.pyo
+
+# Entornos virtuales
 venv/
 .venv/
+
+# Por si settings.json queda fuera de data/ alguna vez
 settings.json
+
+# Sistema
 .DS_Store
 Thumbs.db
