@@ -6,7 +6,7 @@ import json
 import os
 
 STAGING_DIR           = "/data/staging/"
-FINAL_DIR             = "/data/library/"
+FINAL_DIR             = "/music/"
 LASTFM_API_KEY        = ""   # ← se configura en ⚙️ Settings
 PATH_TO_LYRICS_SCRIPT = "/opt/cronicle/scripts/fetch_lyrics.sh"
 

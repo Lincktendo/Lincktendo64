@@ -1,0 +1,12 @@
+services:
+  ingest-app:
+    build: .
+    container_name: ingest-app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/data            # Staging, settings.json, caché de letras
+      - /path/to/your/music:/music   # ← CAMBIA esto a tu librería real
+    environment:
+      - TZ=America/El_Salvador  # ← CAMBIA esto a tu zona horaria
